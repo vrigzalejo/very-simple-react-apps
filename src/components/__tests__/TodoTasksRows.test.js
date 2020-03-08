@@ -11,4 +11,4 @@ describe('<TodoTasksRows />', () => {
         const rows = shallow(<TodoTasksRows item={item} />);
         expect(rows).toHaveLength(1);
     });
-})
+});

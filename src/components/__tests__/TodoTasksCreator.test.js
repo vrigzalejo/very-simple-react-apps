@@ -15,4 +15,4 @@ describe('<TodoTasksCreator />', () => {
         button.find('button').simulate('click');
         expect(button.state().itemText).toEqual("");
     });
-})
+});
