@@ -1,7 +1,7 @@
 import React from 'react';
 import logo from './logo.svg';
-import TodoBanner from './TodoBanner';
-import TodoTasks from './TodoTasks';
+import TodoBanner from './components/TodoBanner';
+import TodoTasks from './components/TodoTasks';
 import './App.css';
 
 class App extends React.Component

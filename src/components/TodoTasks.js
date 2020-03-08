@@ -50,7 +50,7 @@ class TodoTasks extends React.Component
     this.state.todoItems
       .filter(item => item.done === done)
       .map(
-        item => <TodoTasksRows item={item} callback={this.toggleTodo} />
+        item => <TodoTasksRows key={item.id} item={item} callback={this.toggleTodo} />
       )
 
   createNewTodo = task => {
